@@ -3,17 +3,32 @@
   "description": "Watch and Compile hogan.js templates",
   "version": "0.0.1",
   "homepage": "https://github.com/danielstocks/hedgehog",
-  "author": "Daniel Stocks <daniel@webcloud.se> (http://webcloud.se)",
+  "author": {
+    "name": "Daniel Stocks",
+    "email": "daniel@webcloud.se",
+    "url": "http://webcloud.se"
+  },
   "main": "lib/hedgehog.js",
   "directories": {
-    "lib":"./lib"
+    "lib": "./lib"
   },
   "dependencies": {
-    "hogan.js": ">= 1.0.0",
+    "hogan.js": "git+https://github.com/twitter/hogan.js.git",
     "watch-tree": "git+https://github.com/TrevorBurnham/node-watch-tree.git#node_06",
     "mkdirp": ">= 0.2.1"
   },
   "engines": {
     "node": ">= 0.6.0"
-  }
+  },
+  "_id": "hedgehog@0.0.1",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.21",
+  "_nodeVersion": "v0.6.18",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "357e25f2c60a62ee50c2da54b7e97ce4201c7714"
+  },
+  "_from": "hedgehog@git+https://github.com/danielstocks/hedgehog.git"
 }
